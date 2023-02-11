@@ -15,7 +15,8 @@ struct ContentView: View {
         NavigationView {
             Button("Show model") {
                 self.isPresented = true
-            }.sheet(isPresented: $isPresented) {
+            }.foregroundColor(.red)
+            .sheet(isPresented: $isPresented) {
                 ModalView()
             }
             .navigationBarTitle("Xcode and git")
