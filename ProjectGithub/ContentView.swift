@@ -14,6 +14,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                // ignore this
                 Text("This is the content view")
                 NavigationLink(destination: ModalView()){
                     Text("Go Next")
