@@ -13,11 +13,8 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            Button("Show model") {
-                self.isPresented = true
-            }.foregroundColor(.red)
-            .sheet(isPresented: $isPresented) {
-                ModalView()
+            NavigationLink(destination: ModalView()){
+                Text("Go Next")
             }
             .navigationBarTitle("Xcode and git")
         }
