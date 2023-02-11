@@ -11,6 +11,7 @@
 		C4B85F132997B91100F8AC71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B85F122997B91100F8AC71 /* ContentView.swift */; };
 		C4B85F152997B91400F8AC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B85F142997B91400F8AC71 /* Assets.xcassets */; };
 		C4B85F182997B91400F8AC71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B85F172997B91400F8AC71 /* Preview Assets.xcassets */; };
+		C4B85F1F2997BB5F00F8AC71 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B85F1E2997BB5E00F8AC71 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C4B85F122997B91100F8AC71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4B85F142997B91400F8AC71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4B85F172997B91400F8AC71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4B85F1E2997BB5E00F8AC71 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				C4B85F102997B91100F8AC71 /* ProjectGithubApp.swift */,
+				C4B85F1E2997BB5E00F8AC71 /* ModalView.swift */,
 				C4B85F122997B91100F8AC71 /* ContentView.swift */,
 				C4B85F142997B91400F8AC71 /* Assets.xcassets */,
 				C4B85F162997B91400F8AC71 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B85F1F2997BB5F00F8AC71 /* ModalView.swift in Sources */,
 				C4B85F132997B91100F8AC71 /* ContentView.swift in Sources */,
 				C4B85F112997B91100F8AC71 /* ProjectGithubApp.swift in Sources */,
 			);
